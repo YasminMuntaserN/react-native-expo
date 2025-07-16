@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# 🎮 Number Guessing Game - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and interactive **Number Guessing Game** built with **React Native**. In this game, the **phone guesses your number (between 1 and 99)**, and you give it hints whether the next guess should be higher or lower. The app counts the number of rounds it takes to guess correctly!
 
-## Get started
 
-1. Install dependencies
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="https://imgur.com/AR5dOrV.jpg" alt="App Screenshot 1" width="300" height="auto"/>
+  <img src="https://imgur.com/i2hAhVy.jpg" alt="App Screenshot 2" width="300" height="auto"/>
+  <img src="https://imgur.com/SG4AYcR.jpg" alt="App Screenshot 3" width="300" height="auto"/>
+</div>
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📱 Features
+- Multi-screen app with dynamic navigation using **React State** and **conditional rendering**.
+- Reusable and custom UI components.
+- Uses **core React Native components** for layout and interactivity.
+- Dynamic styling for a clean mobile UI.
+- Interactive number input and validation.
+- Works on both **iOS** and **Android**.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✅ What I Learned
+While building this project, I practiced and learned:
+- 📌 **React Native Core Components:** `View`, `Text`, `Button`, `TextInput`, and more.
+- 📌 **State Management:** Handling multiple screens with **useState** and conditional rendering.
+- 📌 **Reusable Components:** Building generic UI components and app-specific components.
+- 📌 **Styling & Layout:** Applying and merging styles, positioning, and creating responsive designs.
+- 📌 **Debugging & Development Tools:** Best practices in debugging React Native apps.
+- 📌 **Custom Buttons & Effects:** Implementing custom-styled buttons and merging incoming styles with default styles.
+- 📌 **Adapting UI:** Understanding how UI behaves across **different screen sizes, devices, and orientations**.
+- 📌 **Fundamentals of React Native:** Strengthening core knowledge in building cross-platform mobile apps.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
+## 📚 References
+This app was developed while following:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+> **React Native - The Practical Guide** by **Maximilian Schwarzmüller** on Udemy  
+> 🔗 [React Native - The Practical Guide | Udemy](https://www.udemy.com/course/react-native-the-practical-guide)
