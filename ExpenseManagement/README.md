@@ -12,3 +12,7 @@ A React Native app for tracking personal expenses. Users can add, edit, and dele
 - List rendering with `FlatList`
 - Component reusability and separation of concerns
 
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="https://imgur.com/WmWFZWK.jpg" alt="App Screenshot 1" width="300" height="auto"/>
+  <img src="https://imgur.com/3UlgkIz.jpg" alt="App Screenshot 2" width="300" height="auto"/>
+</div>
